@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="340" viewBox="0 0 540 340" role="img" aria-label="Terminal de Tomás Fuentealba">
+  <defs>
+    <style>
+      .mono { font-family: "Courier New", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <!-- ventana -->
+  <rect x="20" y="20" width="500" height="300" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <path d="M20 34 a14 14 0 0 1 14 -14 h472 a14 14 0 0 1 14 14 v6 h-500 z" fill="#161b22"/>
+
+  <!-- botones -->
+  <circle cx="40" cy="37" r="6" fill="#ff5f56"/>
+  <circle cx="62" cy="37" r="6" fill="#ffbd2e"/>
+  <circle cx="84" cy="37" r="6" fill="#27c93f"/>
+
+  <!-- título -->
+  <text x="270" y="42" text-anchor="middle" class="mono" font-size="12" fill="#8b949e">tomas@chile: ~</text>
+
+  <!-- arte ASCII: escudo -->
+  <g class="mono" font-size="13" fill="#67e8f9">
+    <text x="40" y="72">     #####</text>
+    <text x="40" y="89">   ###########</text>
+    <text x="40" y="106">  ##  #####  ##</text>
+    <text x="40" y="123">  ##  #####  ##</text>
+    <text x="40" y="140">  ###  ###  ###</text>
+    <text x="40" y="157">   ###########</text>
+    <text x="40" y="174">    #########</text>
+    <text x="40" y="191">     #######</text>
+    <text x="40" y="208">      #####</text>
+    <text x="40" y="225">       ###</text>
+    <text x="40" y="242">        #</text>
+  </g>
+
+  <!-- info neofetch -->
+  <g class="mono" font-size="13">
+    <text x="150" y="74">
+      <tspan fill="#3fb950" font-weight="bold">tomas@chile</tspan>
+    </text>
+    <text x="150" y="91" fill="#8b949e">------------------</text>
+    <text x="150" y="108"><tspan fill="#58a6ff">OS:</tspan><tspan fill="#c9d1d9">      Computer Engineer</tspan></text>
+    <text x="150" y="125"><tspan fill="#58a6ff">Host:</tspan><tspan fill="#c9d1d9">    Chile</tspan></text>
+    <text x="150" y="142"><tspan fill="#58a6ff">Stack:</tspan><tspan fill="#c9d1d9">   Python · TS · React</tspan></text>
+    <text x="150" y="159"><tspan fill="#58a6ff">Backend:</tspan><tspan fill="#c9d1d9">  Django · FastAPI · Node</tspan></text>
+    <text x="150" y="176"><tspan fill="#58a6ff">Data:</tspan><tspan fill="#c9d1d9">     pandas · sklearn · TF</tspan></text>
+    <text x="150" y="193"><tspan fill="#58a6ff">Cloud:</tspan><tspan fill="#c9d1d9">    GCP · Azure · Docker</tspan></text>
+    <text x="150" y="210"><tspan fill="#58a6ff">Sec:</tspan><tspan fill="#c9d1d9">      Linux · hardening</tspan></text>
+    <text x="150" y="227"><tspan fill="#58a6ff">Focus:</tspan><tspan fill="#c9d1d9">    Data · ML · Cybersecurity</tspan></text>
+
+    <!-- prompt + cursor -->
+    <text x="150" y="292">
+      <tspan fill="#3fb950">tomas@chile:~$</tspan>
+    </text>
+    <rect x="272" y="276" width="10" height="16" fill="#3fb950">
+      <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
